@@ -34,13 +34,23 @@
 
   <main>
     <section id="log">
-      <h2>Workout Log</h2>
-      <p>Coming soon.</p>
+        <h2>Workout Log</h2>
+      
+        <form id="log-form">
+          <input type="text" id="exercise-input" placeholder="Exercise name" required>
+          <input type="number" id="sets-input" placeholder="Sets" required>
+          <input type="number" id="reps-input" placeholder="Reps" required>
+          <button type="submit">Add</button>
+        </form>
+      
+        <ul id="log-list"></ul>
+      </section>
     </section>
   </main>
 
   <footer>
     <p>General information only, not medical advice.</p>
   </footer>
+  <script src="workout-log.js"></script>
 </body>
 </html>

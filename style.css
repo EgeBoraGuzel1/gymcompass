@@ -61,3 +61,68 @@ body {
   nav a:hover {
     color: #c0392b;
   }
+  
+  #log-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-right: 8px;
+  }
+  
+  #log-form button {
+    padding: 8px 16px;
+    background-color: #c0392b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  #log-form button:hover {
+    background-color: #a5322a;
+  }
+  #log-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .log-exercise {
+    font-weight: bold;
+    font-size: 16px;
+    color: #c0392b;
+  }
+  
+  .log-sub {
+    color: #888;
+    font-size: 13px;
+    margin-top: 2px;
+  }
+  
+  .log-sub .log-date {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  #log-list button {
+    background-color: #c0392b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 4px 10px;
+    font-size: 13px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.15s;
+  }
+  
+  #log-list li:hover button {
+    opacity: 1;
+  }
+  
+  #log-list button:hover {
+    background-color: #a5322a;
+  }
