@@ -40,8 +40,24 @@ body {
     margin-top: 0;
     margin-bottom: 2px;
   } header p {
-    margin-top: 0;
+    margin: 4px 0;
+  color: #666666;
+  font-size: 15px;
   }.logo {
     vertical-align: middle;
     margin-right: 6px;
+  }
+  nav {
+    margin-top: 6px;
+  }
+  
+  nav a {
+    color: #1a1a1a;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 12px;
+  }
+  
+  nav a:hover {
+    color: #c0392b;
   }
