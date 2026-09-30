@@ -17,3 +17,6 @@ Work in progress.
 ## Disclaimer
 
 General information only, not medical or personal trainer advice.
+## Credits
+
+The body map illustration is adapted from [react-native-body-highlighter](https://github.com/HichamELBSI/react-native-body-highlighter) by Hicham ELABBASSI, used under the MIT License.
