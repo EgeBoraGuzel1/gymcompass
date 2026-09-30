@@ -1,6 +1,6 @@
 # GymCompass
 
-Interactive muscle map and workout guide.
+GymCompass is an interactive, browser-based fitness companion. Click a muscle group on the clickable front/back body map to instantly see targeted exercises, recommended sets and reps, and quick form tips — no more digging through scattered workout guides. Built with plain HTML, CSS and JavaScript (no frameworks), it's designed to grow into a full training companion with a workout log, a progress archive, and eventually English, Turkish, and Polish language support.
 
 ## Planned Features
 
