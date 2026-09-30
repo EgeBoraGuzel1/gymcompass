@@ -126,3 +126,79 @@ body {
   #log-list button:hover {
     background-color: #a5322a;
   }
+  #calendar {
+    background: white;
+    border-radius: 10px;
+    padding: 24px;
+    max-width: 420px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    margin-top: 16px;
+  }
+  
+  .cal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+  }
+  
+  .cal-header button {
+    background: none;
+    border: none;
+    color: #c0392b;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0 8px;
+  }
+  
+  #cal-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 4px;
+    text-align: center;
+  }
+  
+  .weekday {
+    font-size: 11px;
+    color: #999;
+    font-weight: bold;
+    padding-bottom: 6px;
+  }
+  
+  .day {
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .day.empty {
+    visibility: hidden;
+    cursor: default;
+  }
+  
+  .day.has-entry {
+    background: #fbeceb;
+    color: #c0392b;
+    font-weight: bold;
+  }
+  
+  .day.selected {
+    background: #c0392b;
+    color: white;
+    font-weight: bold;
+  }
+  
+  #day-detail {
+    max-width: 420px;
+    margin-top: 16px;
+  }
+  #day-detail > div {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+  }
