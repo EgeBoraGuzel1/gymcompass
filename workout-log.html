@@ -1,56 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GymCompass - Workout Log</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>
-      <svg class="logo" viewBox="0 0 24 24" width="36" height="36">
-        <circle cx="12" cy="12" r="10" fill="white" stroke="#c0392b" stroke-width="2" />
-        <g stroke="#1a1a1a" stroke-width="1" stroke-linecap="round">
-          <line x1="12" y1="3.6" x2="12" y2="5.4" />
-          <line x1="12" y1="18.6" x2="12" y2="20.4" />
-          <line x1="3.6" y1="12" x2="5.4" y2="12" />
-          <line x1="18.6" y1="12" x2="20.4" y2="12" />
-        </g>
-        <g transform="rotate(45 12 12)">
-          <polygon points="12,5.5 14.2,12 9.8,12" fill="#c0392b" />
-          <polygon points="12,18.5 14.2,12 9.8,12" fill="#b0b7c3" />
-        </g>
-        <circle cx="12" cy="12" r="1.1" fill="white" stroke="#1a1a1a" stroke-width="0.6" />
-      </svg>GymCompass
-    </h1>
-    <p>Interactive muscle map and workout guide</p>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="workout-log.html">Workout Log</a>
-      <a href="progress.html">Progress</a>
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GymCompass - Workout Log</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="brand">
+        <h1>
+          <svg class="logo" viewBox="0 0 24 24" width="36" height="36">
+            <circle cx="12" cy="12" r="10" fill="white" stroke="#c0392b" stroke-width="2" />
+            <g stroke="#1a1a1a" stroke-width="1" stroke-linecap="round">
+              <line x1="12" y1="3.6" x2="12" y2="5.4" />
+              <line x1="12" y1="18.6" x2="12" y2="20.4" />
+              <line x1="3.6" y1="12" x2="5.4" y2="12" />
+              <line x1="18.6" y1="12" x2="20.4" y2="12" />
+            </g>
+            <g transform="rotate(45 12 12)">
+              <polygon points="12,5.5 14.2,12 9.8,12" fill="#c0392b" />
+              <polygon points="12,18.5 14.2,12 9.8,12" fill="#b0b7c3" />
+            </g>
+            <circle cx="12" cy="12" r="1.1" fill="white" stroke="#1a1a1a" stroke-width="0.6" /></svg
+          >GymCompass
+        </h1>
+        <p>Interactive muscle map and workout guide</p>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="workout-log.html" class="active">Workout Log</a>
+        <a href="progress.html">Progress</a>
+      </nav>
+    </header>
 
-  <main>
-    <section id="log">
+    <main>
+      <section id="log">
         <h2>Workout Log</h2>
-      
+
         <form id="log-form">
-          <input type="text" id="exercise-input" placeholder="Exercise name" required>
-          <input type="number" id="sets-input" placeholder="Sets" required>
-          <input type="number" id="reps-input" placeholder="Reps" required>
+          <input type="text" id="exercise-input" placeholder="Exercise name" required />
+          <input type="number" id="sets-input" placeholder="Sets" required />
+          <input type="number" id="reps-input" placeholder="Reps" required />
           <button type="submit">Add</button>
         </form>
-      
+
         <ul id="log-list"></ul>
       </section>
-    </section>
-  </main>
+    </main>
 
-  <footer>
-    <p>General information only, not medical advice.</p>
-  </footer>
-  <script src="workout-log.js"></script>
-</body>
+    <footer>
+      <p>General information only, not medical advice.</p>
+    </footer>
+    <script src="workout-log.js"></script>
+  </body>
 </html>
